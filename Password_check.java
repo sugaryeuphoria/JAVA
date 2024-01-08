@@ -20,9 +20,9 @@ public class Password_check {
         return false;
     }
     public static void main(String[] args) {
-            Scanner input = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter the password: ");
-            String password = input.nextLine();
+            String password = sc.nextLine();
             if((password.length() >= 8) && (hasTwoDigits(password) == true)) {
                 System.out.println("It's a valid password");
             } else {
