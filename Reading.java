@@ -65,6 +65,6 @@ class Novel extends ReadingMaterial{
 
 public class Reading {
     public static void main(String[] args) {
-        Book stupidity = new Book("Stupidity", 500, "Moron publishing", "Allan");
+        Book novel = new Book("Stupidity", 500, "Moron publishing", "Allan");
     }
 }
